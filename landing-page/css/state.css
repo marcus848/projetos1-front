@@ -1,0 +1,41 @@
+.state {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.state-bg {
+    position: absolute;
+    background-image: url("../assets/bg-pattern-circles.svg"), linear-gradient(to right, var(--color-very-dark-gray-blue-gradient), var(--color-very-dark-desaturated-blue-gradient));
+    background-repeat: no-repeat;
+    background-position: -10% 80%;
+    width: 100vw;
+    height: 70%;
+    z-index: 0;
+    top: 12%;
+    border-radius: 0 16ch 0 16ch;
+}
+
+.state-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    z-index: 1;
+}
+
+/* .state-content img { */
+/* margin-top: ; */
+/* } */
+
+.state-content-textos {
+    color: var(--color-white);
+    max-width: 30%;
+    font-family: var(--font-overpass);
+}
+
+.state-content-textos h2 {
+    font-size: 4ch;
+    margin-bottom: .5ch;
+}
